@@ -15,8 +15,8 @@ VS Codeでは `lean` フォルダを開きます。本文のコードは `Scratc
 
 | 対象 | 固定版 |
 |---|---|
-| Lean | 4.29.0-rc6 |
-| Mathlib | 5c8398df528176d9c87ccd9226ba8f7c8852d59c |
+| Lean | 4.34.1 |
+| Mathlib | d13f23b723b8a846827a245b89c10fc7d3f11612 |
 | 間接依存 | lean/lake-manifest.json |
 
 初回の取得にはネットワークと数GBのディスク容量が必要です。`lake exe cache get` はMathlibなどのビルド済みデータを取得します。通常の学習では `lake update` を実行せず、固定した版を使います。
