@@ -1,0 +1,36 @@
+name = "volume4_stage0"
+version = "0.1.0"
+defaultTargets = ["Volume4Elementary", "Volume4Chapter19", "Volume4Chapter20", "Volume4Chapter21", "Volume4Chapter22", "Volume4Chapter23", "Volume4Chapter24"]
+
+[leanOptions]
+autoImplicit = false
+warningAsError = true
+
+[[require]]
+name = "BrownianMotion"
+git = "https://github.com/RemyDegenne/brownian-motion"
+rev = "0d5b6eb928e616d3b1f774ad7d233c167d9f42c9"
+
+[[lean_lib]]
+name = "Volume4Stage0"
+
+[[lean_lib]]
+name = "Volume4Elementary"
+
+[[lean_lib]]
+name = "Volume4Chapter24"
+
+[[lean_lib]]
+name = "Volume4Chapter23"
+
+[[lean_lib]]
+name = "Volume4Chapter22"
+
+[[lean_lib]]
+name = "Volume4Chapter21"
+
+[[lean_lib]]
+name = "Volume4Chapter20"
+
+[[lean_lib]]
+name = "Volume4Chapter19"
