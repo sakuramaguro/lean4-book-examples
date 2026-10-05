@@ -2,3 +2,5 @@
 __pycache__/
 lean/.lake/
 lean/.generated/
+lean-volume4/.lake/
+lean-volume4/.generated/

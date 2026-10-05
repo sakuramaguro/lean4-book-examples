@@ -1,0 +1,1975 @@
+{
+  "schema_version": 1,
+  "profile": "volume4",
+  "lean_inputs": {
+    "Audit.lean": "849067eb5ebc19c642ce7a16f01c8dab28924145e36b7ee5d37d71f13e5bdddf",
+    "Statements.lean": "7372df6fb570a0ebc23aa2601267afc53cba7e1cc58cfb49347eedc2783d2e6b",
+    "Volume4Chapter19.lean": "e6c435220b2db73dc4f221d79d4ad7c058dfb0be1a5bace187556de7967d0f52",
+    "Volume4Chapter19/A01.lean": "ed98c0204c37aa3bf2567dd053ca523b714b8b1cfbc654c73b597c88deccae04",
+    "Volume4Chapter19/A02.lean": "978480e4b0f071ec06decda6fd2977d385d086a56f05de8845e43005f866111d",
+    "Volume4Chapter19/A04.lean": "95e41853e2e59ea82a291d789c0f3ba2cf34249a4867877847ddd312155491e7",
+    "Volume4Chapter19/A06.lean": "dae0c22edf253089bf3d8c6c49343a53d2a698df952316db573d337658982c69",
+    "Volume4Chapter19/A07.lean": "3963ce01e59289d559d391903f461614b82740ff748129019ae200ea3794d839",
+    "Volume4Chapter19/A08.lean": "0313c1ee52487788e49bf4374e4d0ef333c48c43ba050eff5b457973de3c5548",
+    "Volume4Chapter19/M01.lean": "e899b970df92e7084b9397d3c4266d2a02b19cf29a2cc4e0a7c760c65dc58565",
+    "Volume4Chapter19/M02.lean": "a68820436c6a2862826e95687670a6a95133f2b42879e13ea5ea52c6d6143044",
+    "Volume4Chapter19/M03.lean": "aaebc7f69879a2c1563ad25a11efcee25c1dacbab53706e372ee535cba6e50e0",
+    "Volume4Chapter19/M04.lean": "dc37e3a35cb3593676e191f3a603f3ca8e907d14bc9b672247562f3f5659ef38",
+    "Volume4Chapter19/M05.lean": "d6e9860196f134baf69dafe536f8527bf2ac5bed5079b09bb27d4b7edaa77cea",
+    "Volume4Chapter19/M06.lean": "605a2923e92f4d6533ccad9765fdaa6c45370d1eaa84e61d3f782cd23f1fc088",
+    "Volume4Chapter19/M07.lean": "82bcfdc6c96e750e67fc4ba097be933132aed6248c300b489b4254107d585ae3",
+    "Volume4Chapter19/M08.lean": "137789adfdb472f5e6a1ba37f1ba5fbe58c2e427219fc6e6175425d458f13d21",
+    "Volume4Chapter19/M09.lean": "d462973f95cc9bd03f4dcae80ebc7d81b302ce0fb680cc9f5fcfccd5dab87485",
+    "Volume4Chapter20.lean": "6bfa6df0439f14472de5354e8fed3cce6671f8cacf6915885f59f8bf6c1bb5f0",
+    "Volume4Chapter20/A03.lean": "7f0fc06d23a3f10360050833a4497a4f55273f4973f829a6fe1d8681d0992678",
+    "Volume4Chapter20/A04.lean": "3aa983426aca9a047c6e2f702cf7cfa6eec75d030c256849b82d6515f115265b",
+    "Volume4Chapter20/A05.lean": "daab22baaa945b55f1a0700cb3963118ea972d10f08cad0be8b21c38238e0734",
+    "Volume4Chapter20/A07.lean": "ac314fcf474b954698ea399f464cd8cb588bfca6c7cb40ad8b3870c0ba0d7043",
+    "Volume4Chapter20/A08.lean": "50c8fb62d0018e84298240a4ec3e79a7a4fddf08597dd44fcc9beb8539d75f13",
+    "Volume4Chapter20/M01.lean": "c90033c5352039566ee5fd68c1f8b550544887b50be1852b10564b73688f764f",
+    "Volume4Chapter20/M02.lean": "f9f805b892638156b95ac659f77028b1d93b3ea976479ad1fb973f843e79242c",
+    "Volume4Chapter20/M03.lean": "0870d19118770e7a41cf3229e88b0194f9ad474dd63f9c6cfd191dddeb49ef50",
+    "Volume4Chapter20/M04.lean": "57e9186fa7da1589639827a458c988b6fa95e3930603ec0f6be3add186429ba6",
+    "Volume4Chapter20/M05.lean": "04287f0554d01943dfa3d2d2b7c089ff821185b8bc74d3d2e955fc92a071ad17",
+    "Volume4Chapter20/M06.lean": "fe7efa19347ef6fd60f5d0565f6bc459d0b75b7681d7ba6c3af774c9e28bfb21",
+    "Volume4Chapter20/M07.lean": "3d1d26298ce40d4515c69d1f53a580068b89e00adf69f7d79fa650020bcdac96",
+    "Volume4Chapter20/M08.lean": "cb006961bc010c7a5a62b965264dfa8132db6c7dd31c834c5389881d7ed0143d",
+    "Volume4Chapter20/M09.lean": "ff520f5f23bf90aaa704dacf3dee84c8ceaaa4f8b27a8dad9a79729a50843094",
+    "Volume4Chapter20/M10.lean": "b1dc2a7daef63082b27ee3590e8a2673dee035864040634cf724313f5f7e8885",
+    "Volume4Chapter20/M11.lean": "0ad2e8cb6a16d8ae418b425bc94ac980f838c2830fd334389f67001158ddb21d",
+    "Volume4Chapter21.lean": "9215edcdcf0ec8605cde1a8c70f8ea878b60d18a3c01271bf19d848541d233e5",
+    "Volume4Chapter21/A01.lean": "6309b3ffbcc61de20aa250b7f24eb3b197eb3025ff0de70da18543f100f971c0",
+    "Volume4Chapter21/A03.lean": "024c3b338769de83241c81d6a8577571dcce5768a41a831c6b27a7a514db0b59",
+    "Volume4Chapter21/A04.lean": "4b429167deb0c10126f2f4b562bd7c91b38f30b8d8637b2e437e4265e2d92a2b",
+    "Volume4Chapter21/A05.lean": "24d34d35116a6c0ad55f00f73066c6ca2ee26d7b64e333c64639349ddefc8517",
+    "Volume4Chapter21/A06.lean": "ce3f8c0f8d8f6af5fd40fc54b3763a925dfd5d4c826f9e927d51e7f260582f07",
+    "Volume4Chapter21/A08.lean": "c5b7c6bc37811b0e3f5915e45a78c5bfd98680c9ce713b43e83b02af00efc5ce",
+    "Volume4Chapter21/M01.lean": "92ea9eff3d8ad1a22490a96347bba01ca6bc414108caab72a0d11b71488c4a89",
+    "Volume4Chapter21/M02.lean": "18ec730090e35dd7f37251668580889346f7221b95ef4205953365206ba02a4c",
+    "Volume4Chapter21/M03.lean": "5283ebde780e151f3485d0e7c2e9727485f0cb2beac689cf3138a44b7d16d5a8",
+    "Volume4Chapter21/M04.lean": "8a9380028905235f9609d0937811e23ae598a2ad25ed784a49d95e172e75e5f7",
+    "Volume4Chapter21/M05.lean": "5455cf2520db4bc425c8f24776d8d877a2fb964a38d5483a13c47d7c20c1d1c3",
+    "Volume4Chapter21/M06.lean": "a49d02e420fdddfc5254382304a88aa5977d79b86c3d673f153829c0401b1501",
+    "Volume4Chapter21/M07.lean": "9b0f5f402e550cdc7823f33a777160a450e5941cb662eeb49096b088bd40b0dd",
+    "Volume4Chapter21/M08.lean": "6053e2286091d79bebca3c9beb0089f236be855ff5496315d85cacdafad0fc8c",
+    "Volume4Chapter21/M09.lean": "c52bc823ed327a83b11856858806424f520fac230298e1dee50954b1f329b780",
+    "Volume4Chapter22.lean": "e41932a3311e90743326da33a69ff1ccb2ab504126f6ebde619d5fe644b96f09",
+    "Volume4Chapter22/A02.lean": "ead4d2c3f5bfa089317b27d518dbf5e2a56faa41fd6ebab9bcc79a21513a7789",
+    "Volume4Chapter22/A03.lean": "6657acbbbbf2745dc0f922f1a5aad33128b5072e13ca698ba29a86ff1516a859",
+    "Volume4Chapter22/A05.lean": "41f5f69d02f80d16d69ec253a2279fae92c988f084044a3089d01886f12ee087",
+    "Volume4Chapter22/A06.lean": "41a82974ee13bea2e78e13d01ee3e0e8378b5ce843996fdfae30c38cd9549f91",
+    "Volume4Chapter22/A07.lean": "fba65297cdd9556ea9409c937998914aa0a8fcfe6cb38ce4833c9d60e3c1c4a1",
+    "Volume4Chapter22/A08.lean": "e943ebccd4d2eb8cb8b781c7bccf07ffc804bdff83325b25b7444aefe03a4fa1",
+    "Volume4Chapter22/M01.lean": "c14c5fe01fbbf5765a68f82db8990da418edff8f4d2c9161b83a1d9ad638c4e1",
+    "Volume4Chapter22/M02.lean": "146a96b874a706cf0041d227203f20ff08c84adcf6c54da570118fe1d7420094",
+    "Volume4Chapter22/M03.lean": "95dc33fd7c0bf7b4a6ce1c7e00984afe256fe827b80f1c661a73e29cd57550b5",
+    "Volume4Chapter22/M04.lean": "b693973cc7b9a82a092d9b077342a003c08677ae3b25df67d8b8363a7b3f6f09",
+    "Volume4Chapter22/M05.lean": "e17ef3305998cb7d5b281364d33b9dcdfc07c95a58971eecb91100e92990e305",
+    "Volume4Chapter22/M06.lean": "6eaa6cf7566c9f9ecb8bbeda0edadf8054dd32e6fcdac58776e0809885a4f723",
+    "Volume4Chapter22/M07.lean": "1707189c3f89ac2b4150cd7ff4a9c503494c268aeb9d2314fe2c6da4360c28d4",
+    "Volume4Chapter22/M08.lean": "e7b74bb9fe23515cb80e7a05d5335c8069eed38ffce60bf0b17c16b882bb2c11",
+    "Volume4Chapter22/M09.lean": "c03f420ff892988799672f714463de4b5cb2a30de939d3d5400ffcf0d5e0f023",
+    "Volume4Chapter23.lean": "0280dcfbd1279bd29d5fc24d15dd567f9a9f51ccebe8bf690357ad43d7908104",
+    "Volume4Chapter23/A01.lean": "cc36915a9490450c030390a93a100bd386ba72c7acba68f205da7d3236c171f5",
+    "Volume4Chapter23/A02.lean": "ef7b5dae9dd7d8c0a89461fa1d260f32e475be7623c1ca4eda29a00083d13c88",
+    "Volume4Chapter23/A04.lean": "3235ad0a838d04bdbbf0313f7338c227bc43381a9e186e9b6b145b210fa1f843",
+    "Volume4Chapter23/A05.lean": "26a679951321030e2862160e28ed866e631f7d27615a2e7417254259703e65e5",
+    "Volume4Chapter23/A07.lean": "345976a313a1aa825b39e41bd35ef1947a27f8960544bf86ddd926f55211087a",
+    "Volume4Chapter23/A08.lean": "ce44447dbdf8eb77aaeb10de38008a372a16b408e08c98acbfac8acf3fbe0ba7",
+    "Volume4Chapter23/M01.lean": "9b31bef232a6071209abbcf99412dbd37b6d6ee9e61d3992979eadd1f0cdcf3d",
+    "Volume4Chapter23/M02.lean": "bf1280bfcf47dc3f96cfc32e65a891a156bce1f7a8b6310484331285acf390e7",
+    "Volume4Chapter23/M03.lean": "96e521642aed8fecb5db6a21e00c74405a1d312701adbaeb863c8d3307aa967b",
+    "Volume4Chapter23/M04.lean": "b72eaec235268f24c288929e46660b3ccbeb4f0ff55341566c5d2ec3bb755f44",
+    "Volume4Chapter23/M05.lean": "a25d2a894babda8bd1f80d710e4b535580679309448b4787ac25a525ba9ccd38",
+    "Volume4Chapter23/M06.lean": "e438dc82b3503a022e24939668e066296e506d5ff8c27ce21257dde09d067698",
+    "Volume4Chapter23/M07.lean": "1bb3a3b78e81d3f97c3578fc14db236eb34fa5ee252a6ccb5506de94f562a476",
+    "Volume4Chapter23/M08.lean": "657a526aac1834aac1544a907e5f8a53b1368df4298d4514df153ce0e8be0b3c",
+    "Volume4Chapter23/M09.lean": "aefbc2149aca22a54644862e92ae9896015877174dc83a2c2cd252b56196d2e0",
+    "Volume4Chapter24.lean": "8161564d2dc5e13d3d06356365733ef63bcc397266c96c95170a177607e4acc5",
+    "Volume4Chapter24/A01.lean": "fad7346a513ef73628b034f29929c52a7b4c17b9ef500491e8b78ee1ef53ae0b",
+    "Volume4Chapter24/A02.lean": "0612a229d198cf117e9225788f2381228943c5a97d3477518b213e5c34692dd9",
+    "Volume4Chapter24/A03.lean": "8b2be91a18355ed7cd9d7c9bbfd27e7b29e79bf36b70bb2c3df97950295e3e24",
+    "Volume4Chapter24/A04.lean": "50363469cd118462ffa519830460f7ae02bd11ac2e9762a6f8c5d9e2972df5f0",
+    "Volume4Chapter24/A05.lean": "de21146f610abb675c1f8242b16a409823f2718a61697d8b259602709db2ae24",
+    "Volume4Chapter24/A08.lean": "bbcfe0cba34c7691e1b4463a756532e8174e4e512fb868cb3dcaa827ce3f8b6b",
+    "Volume4Chapter24/M01.lean": "df186eaa38f008d3660abeebf4921c6a2b6495c8147b4d830fc25a56e134fdd9",
+    "Volume4Chapter24/M02.lean": "326eb4b5953526b7b4844f3099a5cb00285b17534219ea1ad7e691abc2a56276",
+    "Volume4Chapter24/M03.lean": "a2b4170f04c93466517b0fcae55167819d4764bd8f8cc66827734b4be2a22f75",
+    "Volume4Chapter24/M04.lean": "1ee2dce398d1d661d374c260d7636b2f039c849ab347fd39114b12d7c22e5180",
+    "Volume4Chapter24/M05.lean": "4995cfe1a2245dadaebfaec9f954eaafa0f91827348f76447ecd5e3247a47f2c",
+    "Volume4Chapter24/M06.lean": "293722ba8d853a28a2bb9a8e5d859f38b763fd63de2c9a9185c7896349b4958b",
+    "Volume4Chapter24/M07.lean": "a381ea561203b0b01a76ffb34c09e150a5c8c48fe2fe25ee582d063b7f13efce",
+    "Volume4Elementary.lean": "bc861e30fdc82888bc46020e5ee1537f59c95c7857603b14fdd64e7e4bc453b9",
+    "Volume4Elementary/Basic.lean": "81bde209c7824374fd876e596535535a933a7a3ac9069e274de8123a0877ceb1",
+    "Volume4Elementary/ConstantSDE.lean": "26d56d1930b8bda02fc866e82fc0b4a1011524197ab5850a0a63418f020b580c",
+    "Volume4Elementary/ConstantSDEExamples.lean": "b55a73b5dd10ae5f7f3b81ed032818adfa2bc8fbaf04c4b34f27c7970df0677b",
+    "Volume4Elementary/Examples.lean": "3fddd68e8ac1d4c962e6411c16beee05c34dbc0006b10626f9418e9e532d1121",
+    "Volume4Elementary/FiniteSumExamples.lean": "9486f14080639c7979cb2e42ed92709aaf3fab055eb6feba960b7f091774a4e1",
+    "Volume4Elementary/FiniteSumIsometry.lean": "4d5a48f8321154a399d1284da323b3bc60149a16c9260c15d7bcee39b7da8609",
+    "Volume4Elementary/OneStepIsometry.lean": "77f4b6fbe960e8b176f9b362fb6377e2c21434621880282198969c46954a5cdb",
+    "Volume4Stage0/BrownianCheck.lean": "dfaad622d806e9543e1100200d3a9a5ec7ccc174a436a85f4cb6785b96e5a5d5",
+    "Volume4Stage0/FourPoint.lean": "dd6402e9ad35955da46dc874ae7e32f885653016f47ba7a47266fea8d4e6b147",
+    "lake-manifest.json": "914ac0150eee5d17ab7dd57c8e2c902e5c098673f3698b765ff361ff70552b15",
+    "lakefile.toml": "7a10c3f8137f8fa8d7d04c58f87dac79b3e98927c7c01e890d5ad698b829b2de",
+    "lean-toolchain": "62c2d9c0fc1ec4c67e151c11eff41ca004ef38e179cf9476c230406e6defedef"
+  },
+  "blocks": [
+    {
+      "id": "ch19_A01",
+      "file": "Volume4Chapter19/A01.lean",
+      "sha256": "ed98c0204c37aa3bf2567dd053ca523b714b8b1cfbc654c73b597c88deccae04",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter19.second_moment_from_four_values"
+      ]
+    },
+    {
+      "id": "ch19_A02",
+      "file": "Volume4Chapter19/A02.lean",
+      "sha256": "978480e4b0f071ec06decda6fd2977d385d086a56f05de8845e43005f866111d",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter19.integrable_does_not_mean_known"
+      ]
+    },
+    {
+      "id": "ch19_A04",
+      "file": "Volume4Chapter19/A04.lean",
+      "sha256": "95e41853e2e59ea82a291d789c0f3ba2cf34249a4867877847ddd312155491e7",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter19.conditional_mean_with_second_coordinate"
+      ]
+    },
+    {
+      "id": "ch19_A06",
+      "file": "Volume4Chapter19/A06.lean",
+      "sha256": "dae0c22edf253089bf3d8c6c49343a53d2a698df952316db573d337658982c69",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter19.affine_conditional_mean"
+      ]
+    },
+    {
+      "id": "ch19_A07",
+      "file": "Volume4Chapter19/A07.lean",
+      "sha256": "3963ce01e59289d559d391903f461614b82740ff748129019ae200ea3794d839",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter19.averaging_first_does_not_restore_information"
+      ]
+    },
+    {
+      "id": "ch19_A08",
+      "file": "Volume4Chapter19/A08.lean",
+      "sha256": "0313c1ee52487788e49bf4374e4d0ef333c48c43ba050eff5b457973de3c5548",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter19.conditional_second_moment",
+        "Volume4Chapter19.square_of_conditional_mean"
+      ]
+    },
+    {
+      "id": "ch19_M01",
+      "file": "Volume4Chapter19/M01.lean",
+      "sha256": "e899b970df92e7084b9397d3c4266d2a02b19cf29a2cc4e0a7c760c65dc58565",
+      "purpose": "statement_inspection",
+      "names": []
+    },
+    {
+      "id": "ch19_M02",
+      "file": "Volume4Chapter19/M02.lean",
+      "sha256": "a68820436c6a2862826e95687670a6a95133f2b42879e13ea5ea52c6d6143044",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter19.four_point_probability_and_values"
+      ]
+    },
+    {
+      "id": "ch19_M03",
+      "file": "Volume4Chapter19/M03.lean",
+      "sha256": "aaebc7f69879a2c1563ad25a11efcee25c1dacbab53706e372ee535cba6e50e0",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter19.finite_integrability_and_mean"
+      ]
+    },
+    {
+      "id": "ch19_M04",
+      "file": "Volume4Chapter19/M04.lean",
+      "sha256": "dc37e3a35cb3593676e191f3a603f3ca8e907d14bc9b672247562f3f5659ef38",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter19.first_coordinate_is_known"
+      ]
+    },
+    {
+      "id": "ch19_M05",
+      "file": "Volume4Chapter19/M05.lean",
+      "sha256": "d6e9860196f134baf69dafe536f8527bf2ac5bed5079b09bb27d4b7edaa77cea",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter19.conditional_mean_from_characterization"
+      ]
+    },
+    {
+      "id": "ch19_M06",
+      "file": "Volume4Chapter19/M06.lean",
+      "sha256": "605a2923e92f4d6533ccad9765fdaa6c45370d1eaa84e61d3f782cd23f1fc088",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter19.no_information_and_full_information"
+      ]
+    },
+    {
+      "id": "ch19_M07",
+      "file": "Volume4Chapter19/M07.lean",
+      "sha256": "82bcfdc6c96e750e67fc4ba097be933132aed6248c300b489b4254107d585ae3",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter19.conditional_mean_preserves_mean"
+      ]
+    },
+    {
+      "id": "ch19_M08",
+      "file": "Volume4Chapter19/M08.lean",
+      "sha256": "137789adfdb472f5e6a1ba37f1ba5fbe58c2e427219fc6e6175425d458f13d21",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter19.nested_information_and_repeated_conditioning"
+      ]
+    },
+    {
+      "id": "ch19_M09",
+      "file": "Volume4Chapter19/M09.lean",
+      "sha256": "d462973f95cc9bd03f4dcae80ebc7d81b302ce0fb680cc9f5fcfccd5dab87485",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter19.conditional_mean_at_every_point"
+      ]
+    },
+    {
+      "id": "ch20_A03",
+      "file": "Volume4Chapter20/A03.lean",
+      "sha256": "7f0fc06d23a3f10360050833a4497a4f55273f4973f829a6fe1d8681d0992678",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter20.all_three_means_zero"
+      ]
+    },
+    {
+      "id": "ch20_A04",
+      "file": "Volume4Chapter20/A04.lean",
+      "sha256": "3aa983426aca9a047c6e2f702cf7cfa6eec75d030c256849b82d6515f115265b",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter20.last_increment_formula_and_forecast"
+      ]
+    },
+    {
+      "id": "ch20_A05",
+      "file": "Volume4Chapter20/A05.lean",
+      "sha256": "daab22baaa945b55f1a0700cb3963118ea972d10f08cad0be8b21c38238e0734",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter20.affine_transform_is_martingale"
+      ]
+    },
+    {
+      "id": "ch20_A07",
+      "file": "Volume4Chapter20/A07.lean",
+      "sha256": "ac314fcf474b954698ea399f464cd8cb588bfca6c7cb40ad8b3870c0ba0d7043",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter20.terminal_forecast_with_second_coordinate"
+      ]
+    },
+    {
+      "id": "ch20_A08",
+      "file": "Volume4Chapter20/A08.lean",
+      "sha256": "50c8fb62d0018e84298240a4ec3e79a7a4fddf08597dd44fcc9beb8539d75f13",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter20.square_process_adapted_not_martingale"
+      ]
+    },
+    {
+      "id": "ch20_M01",
+      "file": "Volume4Chapter20/M01.lean",
+      "sha256": "c90033c5352039566ee5fd68c1f8b550544887b50be1852b10564b73688f764f",
+      "purpose": "statement_inspection",
+      "names": []
+    },
+    {
+      "id": "ch20_M02",
+      "file": "Volume4Chapter20/M02.lean",
+      "sha256": "f9f805b892638156b95ac659f77028b1d93b3ea976479ad1fb973f843e79242c",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter20.table_filtration_agrees"
+      ]
+    },
+    {
+      "id": "ch20_M03",
+      "file": "Volume4Chapter20/M03.lean",
+      "sha256": "0870d19118770e7a41cf3229e88b0194f9ad474dd63f9c6cfd191dddeb49ef50",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter20.table_process_values"
+      ]
+    },
+    {
+      "id": "ch20_M04",
+      "file": "Volume4Chapter20/M04.lean",
+      "sha256": "57e9186fa7da1589639827a458c988b6fa95e3930603ec0f6be3add186429ba6",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter20.adapted_and_integrable"
+      ]
+    },
+    {
+      "id": "ch20_M05",
+      "file": "Volume4Chapter20/M05.lean",
+      "sha256": "04287f0554d01943dfa3d2d2b7c089ff821185b8bc74d3d2e955fc92a071ad17",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter20.table_is_terminal_forecast"
+      ]
+    },
+    {
+      "id": "ch20_M06",
+      "file": "Volume4Chapter20/M06.lean",
+      "sha256": "fe7efa19347ef6fd60f5d0565f6bc459d0b75b7681d7ba6c3af774c9e28bfb21",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter20.table_martingale_from_tower"
+      ]
+    },
+    {
+      "id": "ch20_M07",
+      "file": "Volume4Chapter20/M07.lean",
+      "sha256": "3d1d26298ce40d4515c69d1f53a580068b89e00adf69f7d79fa650020bcdac96",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter20.martingale_means_equal"
+      ]
+    },
+    {
+      "id": "ch20_M08",
+      "file": "Volume4Chapter20/M08.lean",
+      "sha256": "cb006961bc010c7a5a62b965264dfa8132db6c7dd31c834c5389881d7ed0143d",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter20.martingale_increment_mean_zero"
+      ]
+    },
+    {
+      "id": "ch20_M09",
+      "file": "Volume4Chapter20/M09.lean",
+      "sha256": "ff520f5f23bf90aaa704dacf3dee84c8ceaaa4f8b27a8dad9a79729a50843094",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter20.future_coordinate_not_known"
+      ]
+    },
+    {
+      "id": "ch20_M10",
+      "file": "Volume4Chapter20/M10.lean",
+      "sha256": "b1dc2a7daef63082b27ee3590e8a2673dee035864040634cf724313f5f7e8885",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter20.full_information_changes_martingale"
+      ]
+    },
+    {
+      "id": "ch20_M11",
+      "file": "Volume4Chapter20/M11.lean",
+      "sha256": "0ad2e8cb6a16d8ae418b425bc94ac980f838c2830fd334389f67001158ddb21d",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter20.forecast_martingale_and_terminal"
+      ]
+    },
+    {
+      "id": "ch21_A01",
+      "file": "Volume4Chapter21/A01.lean",
+      "sha256": "6309b3ffbcc61de20aa250b7f24eb3b197eb3025ff0de70da18543f100f971c0",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter21.cdf_from_law"
+      ]
+    },
+    {
+      "id": "ch21_A03",
+      "file": "Volume4Chapter21/A03.lean",
+      "sha256": "024c3b338769de83241c81d6a8577571dcce5768a41a831c6b27a7a514db0b59",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter21.product_with_centered_variable"
+      ]
+    },
+    {
+      "id": "ch21_A04",
+      "file": "Volume4Chapter21/A04.lean",
+      "sha256": "4b429167deb0c10126f2f4b562bd7c91b38f30b8d8637b2e437e4265e2d92a2b",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter21.gaussian_three_four"
+      ]
+    },
+    {
+      "id": "ch21_A05",
+      "file": "Volume4Chapter21/A05.lean",
+      "sha256": "24d34d35116a6c0ad55f00f73066c6ca2ee26d7b64e333c64639349ddefc8517",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter21.zero_variance_gaussian"
+      ]
+    },
+    {
+      "id": "ch21_A06",
+      "file": "Volume4Chapter21/A06.lean",
+      "sha256": "ce3f8c0f8d8f6af5fd40fc54b3763a925dfd5d4c826f9e927d51e7f260582f07",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter21.centered_gaussian_product"
+      ]
+    },
+    {
+      "id": "ch21_A08",
+      "file": "Volume4Chapter21/A08.lean",
+      "sha256": "c5b7c6bc37811b0e3f5915e45a78c5bfd98680c9ce713b43e83b02af00efc5ce",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter21.centered_gaussian_conditional_mean"
+      ]
+    },
+    {
+      "id": "ch21_M01",
+      "file": "Volume4Chapter21/M01.lean",
+      "sha256": "92ea9eff3d8ad1a22490a96347bba01ca6bc414108caab72a0d11b71488c4a89",
+      "purpose": "statement_inspection",
+      "names": []
+    },
+    {
+      "id": "ch21_M02",
+      "file": "Volume4Chapter21/M02.lean",
+      "sha256": "18ec730090e35dd7f37251668580889346f7221b95ef4205953365206ba02a4c",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter21.integral_from_law"
+      ]
+    },
+    {
+      "id": "ch21_M03",
+      "file": "Volume4Chapter21/M03.lean",
+      "sha256": "5283ebde780e151f3485d0e7c2e9727485f0cb2beac689cf3138a44b7d16d5a8",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter21.independent_coordinates"
+      ]
+    },
+    {
+      "id": "ch21_M04",
+      "file": "Volume4Chapter21/M04.lean",
+      "sha256": "8a9380028905235f9609d0937811e23ae598a2ad25ed784a49d95e172e75e5f7",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter21.independent_integrable_product",
+        "Volume4Chapter21.centered_product_mean_zero"
+      ]
+    },
+    {
+      "id": "ch21_M05",
+      "file": "Volume4Chapter21/M05.lean",
+      "sha256": "5455cf2520db4bc425c8f24776d8d877a2fb964a38d5483a13c47d7c20c1d1c3",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter21.gaussian_moments"
+      ]
+    },
+    {
+      "id": "ch21_M06",
+      "file": "Volume4Chapter21/M06.lean",
+      "sha256": "a49d02e420fdddfc5254382304a88aa5977d79b86c3d673f153829c0401b1501",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter21.independent_L2_product"
+      ]
+    },
+    {
+      "id": "ch21_M07",
+      "file": "Volume4Chapter21/M07.lean",
+      "sha256": "9b0f5f402e550cdc7823f33a777160a450e5941cb662eeb49096b088bd40b0dd",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter21.independent_gaussian_sum"
+      ]
+    },
+    {
+      "id": "ch21_M08",
+      "file": "Volume4Chapter21/M08.lean",
+      "sha256": "6053e2286091d79bebca3c9beb0089f236be855ff5496315d85cacdafad0fc8c",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter21.conditional_mean_of_independence"
+      ]
+    },
+    {
+      "id": "ch21_M09",
+      "file": "Volume4Chapter21/M09.lean",
+      "sha256": "c52bc823ed327a83b11856858806424f520fac230298e1dee50954b1f329b780",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter21.information_measurable_independent"
+      ]
+    },
+    {
+      "id": "ch22_A02",
+      "file": "Volume4Chapter22/A02.lean",
+      "sha256": "ead4d2c3f5bfa089317b27d518dbf5e2a56faa41fd6ebab9bcc79a21513a7789",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter22.increment_one_to_three"
+      ]
+    },
+    {
+      "id": "ch22_A03",
+      "file": "Volume4Chapter22/A03.lean",
+      "sha256": "6657acbbbbf2745dc0f922f1a5aad33128b5072e13ca698ba29a86ff1516a859",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter22.predict_time_three_at_one"
+      ]
+    },
+    {
+      "id": "ch22_A05",
+      "file": "Volume4Chapter22/A05.lean",
+      "sha256": "41f5f69d02f80d16d69ec253a2279fae92c988f084044a3089d01886f12ee087",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter22.diagonal_zero_at_fixed_time",
+        "Volume4Chapter22.diagonal_no_zero_path",
+        "Volume4Chapter22.diagonal_not_indistinguishable"
+      ]
+    },
+    {
+      "id": "ch22_A06",
+      "file": "Volume4Chapter22/A06.lean",
+      "sha256": "41a82974ee13bea2e78e13d01ee3e0e8378b5ce843996fdfae30c38cd9549f91",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter22.equality_on_observation_sequence"
+      ]
+    },
+    {
+      "id": "ch22_A07",
+      "file": "Volume4Chapter22/A07.lean",
+      "sha256": "fba65297cdd9556ea9409c937998914aa0a8fcfe6cb38ce4833c9d60e3c1c4a1",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter22.continuous_version_of_brownian"
+      ]
+    },
+    {
+      "id": "ch22_A08",
+      "file": "Volume4Chapter22/A08.lean",
+      "sha256": "e943ebccd4d2eb8cb8b781c7bccf07ffc804bdff83325b25b7444aefe03a4fa1",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter22.affine_coefficient_at_one"
+      ]
+    },
+    {
+      "id": "ch22_M01",
+      "file": "Volume4Chapter22/M01.lean",
+      "sha256": "c14c5fe01fbbf5765a68f82db8990da418edff8f4d2c9161b83a1d9ad638c4e1",
+      "purpose": "statement_inspection",
+      "names": []
+    },
+    {
+      "id": "ch22_M02",
+      "file": "Volume4Chapter22/M02.lean",
+      "sha256": "146a96b874a706cf0041d227203f20ff08c84adcf6c54da570118fe1d7420094",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter22.constructed_interface"
+      ]
+    },
+    {
+      "id": "ch22_M03",
+      "file": "Volume4Chapter22/M03.lean",
+      "sha256": "95dc33fd7c0bf7b4a6ce1c7e00984afe256fe827b80f1c661a73e29cd57550b5",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter22.increment_law_and_L2"
+      ]
+    },
+    {
+      "id": "ch22_M04",
+      "file": "Volume4Chapter22/M04.lean",
+      "sha256": "b693973cc7b9a82a092d9b077342a003c08677ae3b25df67d8b8363a7b3f6f09",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter22.increment_mean_and_second_moment"
+      ]
+    },
+    {
+      "id": "ch22_M05",
+      "file": "Volume4Chapter22/M05.lean",
+      "sha256": "e17ef3305998cb7d5b281364d33b9dcdfc07c95a58971eecb91100e92990e305",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter22.increment_condExp_zero"
+      ]
+    },
+    {
+      "id": "ch22_M06",
+      "file": "Volume4Chapter22/M06.lean",
+      "sha256": "6eaa6cf7566c9f9ecb8bbeda0edadf8054dd32e6fcdac58776e0809885a4f723",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter22.martingale_from_filtered_brownian"
+      ]
+    },
+    {
+      "id": "ch22_M07",
+      "file": "Volume4Chapter22/M07.lean",
+      "sha256": "1707189c3f89ac2b4150cd7ff4a9c503494c268aeb9d2314fe2c6da4360c28d4",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter22.countable_same_null_set"
+      ]
+    },
+    {
+      "id": "ch22_M08",
+      "file": "Volume4Chapter22/M08.lean",
+      "sha256": "e7b74bb9fe23515cb80e7a05d5335c8069eed38ffce60bf0b17c16b882bb2c11",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter22.continuous_modifications_on_horizon"
+      ]
+    },
+    {
+      "id": "ch22_M09",
+      "file": "Volume4Chapter22/M09.lean",
+      "sha256": "c03f420ff892988799672f714463de4b5cb2a30de939d3d5400ffcf0d5e0f023",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter22.coefficient_for_next_interval"
+      ]
+    },
+    {
+      "id": "ch23_A01",
+      "file": "Volume4Chapter23/A01.lean",
+      "sha256": "cc36915a9490450c030390a93a100bd386ba72c7acba68f205da7d3236c171f5",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter23.step_endpoint_values"
+      ]
+    },
+    {
+      "id": "ch23_A02",
+      "file": "Volume4Chapter23/A02.lean",
+      "sha256": "ef7b5dae9dd7d8c0a89461fa1d260f32e475be7623c1ca4eda29a00083d13c88",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter23.split_same_coefficient"
+      ]
+    },
+    {
+      "id": "ch23_A04",
+      "file": "Volume4Chapter23/A04.lean",
+      "sha256": "3235ad0a838d04bdbbf0313f7338c227bc43381a9e186e9b6b145b210fa1f843",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter23.half_step_second_moment"
+      ]
+    },
+    {
+      "id": "ch23_A05",
+      "file": "Volume4Chapter23/A05.lean",
+      "sha256": "26a679951321030e2862160e28ed866e631f7d27615a2e7417254259703e65e5",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter23.future_increment_not_measurable"
+      ]
+    },
+    {
+      "id": "ch23_A07",
+      "file": "Volume4Chapter23/A07.lean",
+      "sha256": "345976a313a1aa825b39e41bd35ef1947a27f8960544bf86ddd926f55211087a",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter23.two_step_moments_at_endpoints"
+      ]
+    },
+    {
+      "id": "ch23_A08",
+      "file": "Volume4Chapter23/A08.lean",
+      "sha256": "ce44447dbdf8eb77aaeb10de38008a372a16b408e08c98acbfac8acf3fbe0ba7",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter23.negative_constant_brownian_integral"
+      ]
+    },
+    {
+      "id": "ch23_M01",
+      "file": "Volume4Chapter23/M01.lean",
+      "sha256": "9b31bef232a6071209abbcf99412dbd37b6d6ee9e61d3992979eadd1f0cdcf3d",
+      "purpose": "statement_inspection",
+      "names": []
+    },
+    {
+      "id": "ch23_M02",
+      "file": "Volume4Chapter23/M02.lean",
+      "sha256": "bf1280bfcf47dc3f96cfc32e65a891a156bce1f7a8b6310484331285acf390e7",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter23.random_step_before_start",
+        "Volume4Chapter23.random_step_terminal"
+      ]
+    },
+    {
+      "id": "ch23_M03",
+      "file": "Volume4Chapter23/M03.lean",
+      "sha256": "96e521642aed8fecb5db6a21e00c74405a1d312701adbaeb863c8d3307aa967b",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter23.subdivision_integral"
+      ]
+    },
+    {
+      "id": "ch23_M04",
+      "file": "Volume4Chapter23/M04.lean",
+      "sha256": "b72eaec235268f24c288929e46660b3ccbeb4f0ff55341566c5d2ec3bb755f44",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter23.constant_integral_formula"
+      ]
+    },
+    {
+      "id": "ch23_M05",
+      "file": "Volume4Chapter23/M05.lean",
+      "sha256": "a25d2a894babda8bd1f80d710e4b535580679309448b4787ac25a525ba9ccd38",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter23.weighted_increment_L2_and_moment"
+      ]
+    },
+    {
+      "id": "ch23_M06",
+      "file": "Volume4Chapter23/M06.lean",
+      "sha256": "e438dc82b3503a022e24939668e066296e506d5ff8c27ce21257dde09d067698",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter23.one_interval_isometry"
+      ]
+    },
+    {
+      "id": "ch23_M07",
+      "file": "Volume4Chapter23/M07.lean",
+      "sha256": "1bb3a3b78e81d3f97c3578fc14db236eb34fa5ee252a6ccb5506de94f562a476",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter23.cross_term_integrable_and_zero"
+      ]
+    },
+    {
+      "id": "ch23_M08",
+      "file": "Volume4Chapter23/M08.lean",
+      "sha256": "657a526aac1834aac1544a907e5f8a53b1368df4298d4514df153ce0e8be0b3c",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter23.finite_sum_L2_and_isometry"
+      ]
+    },
+    {
+      "id": "ch23_M09",
+      "file": "Volume4Chapter23/M09.lean",
+      "sha256": "aefbc2149aca22a54644862e92ae9896015877174dc83a2c2cd252b56196d2e0",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter23.two_step_terminal_second_moment"
+      ]
+    },
+    {
+      "id": "ch24_A01",
+      "file": "Volume4Chapter24/A01.lean",
+      "sha256": "fad7346a513ef73628b034f29929c52a7b4c17b9ef500491e8b78ee1ef53ae0b",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter24.negative_drift_integral"
+      ]
+    },
+    {
+      "id": "ch24_A02",
+      "file": "Volume4Chapter24/A02.lean",
+      "sha256": "0612a229d198cf117e9225788f2381228943c5a97d3477518b213e5c34692dd9",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter24.initial_from_equation"
+      ]
+    },
+    {
+      "id": "ch24_A03",
+      "file": "Volume4Chapter24/A03.lean",
+      "sha256": "8b2be91a18355ed7cd9d7c9bbfd27e7b29e79bf36b70bb2c3df97950295e3e24",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter24.terminal_value"
+      ]
+    },
+    {
+      "id": "ch24_A04",
+      "file": "Volume4Chapter24/A04.lean",
+      "sha256": "50363469cd118462ffa519830460f7ae02bd11ac2e9762a6f8c5d9e2972df5f0",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter24.zero_diffusion_unique"
+      ]
+    },
+    {
+      "id": "ch24_A05",
+      "file": "Volume4Chapter24/A05.lean",
+      "sha256": "de21146f610abb675c1f8242b16a409823f2718a61697d8b259602709db2ae24",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter24.changed_coefficients_solution",
+        "Volume4Chapter24.changed_coefficients_unique"
+      ]
+    },
+    {
+      "id": "ch24_A08",
+      "file": "Volume4Chapter24/A08.lean",
+      "sha256": "bbcfe0cba34c7691e1b4463a756532e8174e4e512fb868cb3dcaa827ce3f8b6b",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter24.cutoff_solution"
+      ]
+    },
+    {
+      "id": "ch24_M01",
+      "file": "Volume4Chapter24/M01.lean",
+      "sha256": "df186eaa38f008d3660abeebf4921c6a2b6495c8147b4d830fc25a56e134fdd9",
+      "purpose": "statement_inspection",
+      "names": []
+    },
+    {
+      "id": "ch24_M02",
+      "file": "Volume4Chapter24/M02.lean",
+      "sha256": "326eb4b5953526b7b4844f3099a5cb00285b17534219ea1ad7e691abc2a56276",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter24.constant_integral"
+      ]
+    },
+    {
+      "id": "ch24_M03",
+      "file": "Volume4Chapter24/M03.lean",
+      "sha256": "a2b4170f04c93466517b0fcae55167819d4764bd8f8cc66827734b4be2a22f75",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter24.explicit_solution"
+      ]
+    },
+    {
+      "id": "ch24_M04",
+      "file": "Volume4Chapter24/M04.lean",
+      "sha256": "1ee2dce398d1d661d374c260d7636b2f039c849ab347fd39114b12d7c22e5180",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter24.fixed_time_unique"
+      ]
+    },
+    {
+      "id": "ch24_M05",
+      "file": "Volume4Chapter24/M05.lean",
+      "sha256": "4995cfe1a2245dadaebfaec9f954eaafa0f91827348f76447ecd5e3247a47f2c",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter24.simultaneous_unique"
+      ]
+    },
+    {
+      "id": "ch24_M06",
+      "file": "Volume4Chapter24/M06.lean",
+      "sha256": "293722ba8d853a28a2bb9a8e5d859f38b763fd63de2c9a9185c7896349b4958b",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter24.existence_and_uniqueness"
+      ]
+    },
+    {
+      "id": "ch24_M07",
+      "file": "Volume4Chapter24/M07.lean",
+      "sha256": "a381ea561203b0b01a76ffb34c09e150a5c8c48fe2fe25ee582d063b7f13efce",
+      "purpose": "completed_proof",
+      "names": [
+        "Volume4Chapter24.concrete_solution"
+      ]
+    }
+  ],
+  "declarations": [
+    {
+      "name": "Volume4Elementary.Partition.start_le",
+      "file": "Volume4Elementary/Basic.lean",
+      "line": 31
+    },
+    {
+      "name": "Volume4Elementary.Partition.le_end",
+      "file": "Volume4Elementary/Basic.lean",
+      "line": 34
+    },
+    {
+      "name": "Volume4Elementary.Partition.start_le_end",
+      "file": "Volume4Elementary/Basic.lean",
+      "line": 37
+    },
+    {
+      "name": "Volume4Elementary.Partition.adjacent_lt",
+      "file": "Volume4Elementary/Basic.lean",
+      "line": 40
+    },
+    {
+      "name": "Volume4Elementary.sum_adjacent_sub",
+      "file": "Volume4Elementary/Basic.lean",
+      "line": 54
+    },
+    {
+      "name": "Volume4Elementary.sum_weighted_increments",
+      "file": "Volume4Elementary/Basic.lean",
+      "line": 65
+    },
+    {
+      "name": "Volume4Elementary.segment_eq_increment",
+      "file": "Volume4Elementary/Basic.lean",
+      "line": 73
+    },
+    {
+      "name": "Volume4Elementary.sum_segments",
+      "file": "Volume4Elementary/Basic.lean",
+      "line": 82
+    },
+    {
+      "name": "Volume4Elementary.Elementary.value_stronglyAdapted",
+      "file": "Volume4Elementary/Basic.lean",
+      "line": 118
+    },
+    {
+      "name": "Volume4Elementary.Elementary.value_zero",
+      "file": "Volume4Elementary/Basic.lean",
+      "line": 128
+    },
+    {
+      "name": "Volume4Elementary.Elementary.integral_zero_time",
+      "file": "Volume4Elementary/Basic.lean",
+      "line": 131
+    },
+    {
+      "name": "Volume4Elementary.Elementary.integral_zero_coeff",
+      "file": "Volume4Elementary/Basic.lean",
+      "line": 135
+    },
+    {
+      "name": "Volume4Elementary.Elementary.integral_before_start",
+      "file": "Volume4Elementary/Basic.lean",
+      "line": 139
+    },
+    {
+      "name": "Volume4Elementary.Elementary.value_onPartition",
+      "file": "Volume4Elementary/Basic.lean",
+      "line": 155
+    },
+    {
+      "name": "Volume4Elementary.Elementary.integral_onPartition",
+      "file": "Volume4Elementary/Basic.lean",
+      "line": 160
+    },
+    {
+      "name": "Volume4Elementary.Elementary.refinement_preserves_value",
+      "file": "Volume4Elementary/Basic.lean",
+      "line": 188
+    },
+    {
+      "name": "Volume4Elementary.Elementary.refinement_preserves_integral",
+      "file": "Volume4Elementary/Basic.lean",
+      "line": 194
+    },
+    {
+      "name": "Volume4Elementary.Elementary.integral_oneStep",
+      "file": "Volume4Elementary/Basic.lean",
+      "line": 205
+    },
+    {
+      "name": "Volume4Elementary.Elementary.integral_constant",
+      "file": "Volume4Elementary/Basic.lean",
+      "line": 216
+    },
+    {
+      "name": "Volume4Elementary.ConstantSDE.drift_intervalIntegrable",
+      "file": "Volume4Elementary/ConstantSDE.lean",
+      "line": 36
+    },
+    {
+      "name": "Volume4Elementary.ConstantSDE.drift_integral",
+      "file": "Volume4Elementary/ConstantSDE.lean",
+      "line": 40
+    },
+    {
+      "name": "Volume4Elementary.ConstantSDE.candidate_stronglyAdapted",
+      "file": "Volume4Elementary/ConstantSDE.lean",
+      "line": 45
+    },
+    {
+      "name": "Volume4Elementary.ConstantSDE.candidate_continuous",
+      "file": "Volume4Elementary/ConstantSDE.lean",
+      "line": 51
+    },
+    {
+      "name": "Volume4Elementary.ConstantSDE.candidate_continuous_paths",
+      "file": "Volume4Elementary/ConstantSDE.lean",
+      "line": 57
+    },
+    {
+      "name": "Volume4Elementary.ConstantSDE.candidate_initial",
+      "file": "Volume4Elementary/ConstantSDE.lean",
+      "line": 64
+    },
+    {
+      "name": "Volume4Elementary.ConstantSDE.candidate_integral_equation",
+      "file": "Volume4Elementary/ConstantSDE.lean",
+      "line": 70
+    },
+    {
+      "name": "Volume4Elementary.ConstantSDE.candidate_isSolution",
+      "file": "Volume4Elementary/ConstantSDE.lean",
+      "line": 82
+    },
+    {
+      "name": "Volume4Elementary.ConstantSDE.IsSolution.ae_eq_at",
+      "file": "Volume4Elementary/ConstantSDE.lean",
+      "line": 95
+    },
+    {
+      "name": "Volume4Elementary.ConstantSDE.IsSolution.indistinguishable",
+      "file": "Volume4Elementary/ConstantSDE.lean",
+      "line": 102
+    },
+    {
+      "name": "Volume4Elementary.ConstantSDE.IsSolution.eq_candidate",
+      "file": "Volume4Elementary/ConstantSDE.lean",
+      "line": 115
+    },
+    {
+      "name": "Volume4Elementary.ConstantSDE.IsSolution.integral_eq_simultaneously",
+      "file": "Volume4Elementary/ConstantSDE.lean",
+      "line": 123
+    },
+    {
+      "name": "Volume4Elementary.ConstantSDE.exists_solution_unique_on_interval",
+      "file": "Volume4Elementary/ConstantSDE.lean",
+      "line": 138
+    },
+    {
+      "name": "Volume4Elementary.SDEExamples.brownian_candidate_isSolution",
+      "file": "Volume4Elementary/ConstantSDEExamples.lean",
+      "line": 17
+    },
+    {
+      "name": "Volume4Elementary.SDEExamples.brownian_unique_on_interval",
+      "file": "Volume4Elementary/ConstantSDEExamples.lean",
+      "line": 22
+    },
+    {
+      "name": "Volume4Elementary.SDEExamples.brownian_exists_solution_unique",
+      "file": "Volume4Elementary/ConstantSDEExamples.lean",
+      "line": 30
+    },
+    {
+      "name": "Volume4Elementary.SDEExamples.zero_diffusion_isSolution",
+      "file": "Volume4Elementary/ConstantSDEExamples.lean",
+      "line": 41
+    },
+    {
+      "name": "Volume4Elementary.SDEExamples.zero_drift_unit_diffusion_isSolution",
+      "file": "Volume4Elementary/ConstantSDEExamples.lean",
+      "line": 48
+    },
+    {
+      "name": "Volume4Elementary.Examples.constant_brownian_integral",
+      "file": "Volume4Elementary/Examples.lean",
+      "line": 18
+    },
+    {
+      "name": "Volume4Elementary.Examples.brownianStep_value",
+      "file": "Volume4Elementary/Examples.lean",
+      "line": 48
+    },
+    {
+      "name": "Volume4Elementary.Examples.brownianStep_integral",
+      "file": "Volume4Elementary/Examples.lean",
+      "line": 55
+    },
+    {
+      "name": "Volume4Elementary.Examples.brownianStep_integral_before_one",
+      "file": "Volume4Elementary/Examples.lean",
+      "line": 63
+    },
+    {
+      "name": "Volume4Elementary.Examples.brownianStep_integral_at_two",
+      "file": "Volume4Elementary/Examples.lean",
+      "line": 68
+    },
+    {
+      "name": "Volume4Elementary.Examples.brownianStep_value_at_one",
+      "file": "Volume4Elementary/Examples.lean",
+      "line": 72
+    },
+    {
+      "name": "Volume4Elementary.Examples.brownianStep_value_at_two",
+      "file": "Volume4Elementary/Examples.lean",
+      "line": 75
+    },
+    {
+      "name": "Volume4Elementary.FiniteExamples.brownian_second_moment",
+      "file": "Volume4Elementary/FiniteSumExamples.lean",
+      "line": 33
+    },
+    {
+      "name": "Volume4Elementary.FiniteExamples.brownianTwoStep_value",
+      "file": "Volume4Elementary/FiniteSumExamples.lean",
+      "line": 40
+    },
+    {
+      "name": "Volume4Elementary.FiniteExamples.brownianTwoStep_integral",
+      "file": "Volume4Elementary/FiniteSumExamples.lean",
+      "line": 49
+    },
+    {
+      "name": "Volume4Elementary.FiniteExamples.brownianTwoStep_memLp",
+      "file": "Volume4Elementary/FiniteSumExamples.lean",
+      "line": 58
+    },
+    {
+      "name": "Volume4Elementary.FiniteExamples.brownianTwoStep_cross_moment",
+      "file": "Volume4Elementary/FiniteSumExamples.lean",
+      "line": 62
+    },
+    {
+      "name": "Volume4Elementary.FiniteExamples.brownianTwoStep_second_moment",
+      "file": "Volume4Elementary/FiniteSumExamples.lean",
+      "line": 69
+    },
+    {
+      "name": "Volume4Elementary.FiniteExamples.brownianTwoStep_second_moment_at_three",
+      "file": "Volume4Elementary/FiniteSumExamples.lean",
+      "line": 78
+    },
+    {
+      "name": "Volume4Elementary.FiniteExamples.brownianTwoStep_ito_isometry",
+      "file": "Volume4Elementary/FiniteSumExamples.lean",
+      "line": 82
+    },
+    {
+      "name": "Volume4Elementary.FiniteSum.earlier_end_le_later_start",
+      "file": "Volume4Elementary/FiniteSumIsometry.lean",
+      "line": 18
+    },
+    {
+      "name": "Volume4Elementary.FiniteSum.integral_eq_sum_terms",
+      "file": "Volume4Elementary/FiniteSumIsometry.lean",
+      "line": 30
+    },
+    {
+      "name": "Volume4Elementary.FiniteSum.term_eq_zero_of_le",
+      "file": "Volume4Elementary/FiniteSumIsometry.lean",
+      "line": 33
+    },
+    {
+      "name": "Volume4Elementary.FiniteSum.term_memLp",
+      "file": "Volume4Elementary/FiniteSumIsometry.lean",
+      "line": 39
+    },
+    {
+      "name": "Volume4Elementary.FiniteSum.term_second_moment",
+      "file": "Volume4Elementary/FiniteSumIsometry.lean",
+      "line": 47
+    },
+    {
+      "name": "Volume4Elementary.FiniteSum.term_stronglyMeasurable_of_end_le",
+      "file": "Volume4Elementary/FiniteSumIsometry.lean",
+      "line": 56
+    },
+    {
+      "name": "Volume4Elementary.FiniteSum.integrable_past_mul_increment_mean_zero",
+      "file": "Volume4Elementary/FiniteSumIsometry.lean",
+      "line": 68
+    },
+    {
+      "name": "Volume4Elementary.FiniteSum.term_mul_integrable",
+      "file": "Volume4Elementary/FiniteSumIsometry.lean",
+      "line": 79
+    },
+    {
+      "name": "Volume4Elementary.FiniteSum.term_cross_moment_of_lt",
+      "file": "Volume4Elementary/FiniteSumIsometry.lean",
+      "line": 84
+    },
+    {
+      "name": "Volume4Elementary.FiniteSum.term_cross_moment",
+      "file": "Volume4Elementary/FiniteSumIsometry.lean",
+      "line": 101
+    },
+    {
+      "name": "Volume4Elementary.FiniteSum.integral_memLp",
+      "file": "Volume4Elementary/FiniteSumIsometry.lean",
+      "line": 109
+    },
+    {
+      "name": "Volume4Elementary.FiniteSum.integral_sq_sum_of_cross_moments_zero",
+      "file": "Volume4Elementary/FiniteSumIsometry.lean",
+      "line": 113
+    },
+    {
+      "name": "Volume4Elementary.FiniteSum.integral_second_moment",
+      "file": "Volume4Elementary/FiniteSumIsometry.lean",
+      "line": 137
+    },
+    {
+      "name": "Volume4Elementary.FiniteSum.sq_sum_of_mul_eq_zero",
+      "file": "Volume4Elementary/FiniteSumIsometry.lean",
+      "line": 147
+    },
+    {
+      "name": "Volume4Elementary.FiniteSum.segments_mul_eq_zero_of_lt",
+      "file": "Volume4Elementary/FiniteSumIsometry.lean",
+      "line": 160
+    },
+    {
+      "name": "Volume4Elementary.FiniteSum.value_sq_eq_sum",
+      "file": "Volume4Elementary/FiniteSumIsometry.lean",
+      "line": 171
+    },
+    {
+      "name": "Volume4Elementary.FiniteSum.value_sq_intervalIntegrable",
+      "file": "Volume4Elementary/FiniteSumIsometry.lean",
+      "line": 181
+    },
+    {
+      "name": "Volume4Elementary.FiniteSum.time_energy",
+      "file": "Volume4Elementary/FiniteSumIsometry.lean",
+      "line": 189
+    },
+    {
+      "name": "Volume4Elementary.FiniteSum.time_energy_integrable",
+      "file": "Volume4Elementary/FiniteSumIsometry.lean",
+      "line": 200
+    },
+    {
+      "name": "Volume4Elementary.FiniteSum.ito_isometry",
+      "file": "Volume4Elementary/FiniteSumIsometry.lean",
+      "line": 205
+    },
+    {
+      "name": "Volume4Elementary.OneStep.gaussian_second_moment",
+      "file": "Volume4Elementary/OneStepIsometry.lean",
+      "line": 17
+    },
+    {
+      "name": "Volume4Elementary.OneStep.coefficient_indep_increment",
+      "file": "Volume4Elementary/OneStepIsometry.lean",
+      "line": 26
+    },
+    {
+      "name": "Volume4Elementary.OneStep.increment_memLp",
+      "file": "Volume4Elementary/OneStepIsometry.lean",
+      "line": 32
+    },
+    {
+      "name": "Volume4Elementary.OneStep.increment_second_moment",
+      "file": "Volume4Elementary/OneStepIsometry.lean",
+      "line": 36
+    },
+    {
+      "name": "Volume4Elementary.OneStep.weighted_increment_memLp",
+      "file": "Volume4Elementary/OneStepIsometry.lean",
+      "line": 47
+    },
+    {
+      "name": "Volume4Elementary.OneStep.weighted_increment_second_moment",
+      "file": "Volume4Elementary/OneStepIsometry.lean",
+      "line": 63
+    },
+    {
+      "name": "Volume4Elementary.OneStep.weighted_increment_mean_zero",
+      "file": "Volume4Elementary/OneStepIsometry.lean",
+      "line": 78
+    },
+    {
+      "name": "Volume4Elementary.OneStep.integral_oneStep_memLp",
+      "file": "Volume4Elementary/OneStepIsometry.lean",
+      "line": 92
+    },
+    {
+      "name": "Volume4Elementary.OneStep.integral_oneStep_second_moment",
+      "file": "Volume4Elementary/OneStepIsometry.lean",
+      "line": 105
+    },
+    {
+      "name": "Volume4Elementary.OneStep.integral_oneStep_second_moment_terminal",
+      "file": "Volume4Elementary/OneStepIsometry.lean",
+      "line": 117
+    },
+    {
+      "name": "Volume4Elementary.OneStep.segment_sq_eq_indicator",
+      "file": "Volume4Elementary/OneStepIsometry.lean",
+      "line": 125
+    },
+    {
+      "name": "Volume4Elementary.OneStep.segment_sq_intervalIntegrable",
+      "file": "Volume4Elementary/OneStepIsometry.lean",
+      "line": 134
+    },
+    {
+      "name": "Volume4Elementary.OneStep.segment_time_energy",
+      "file": "Volume4Elementary/OneStepIsometry.lean",
+      "line": 143
+    },
+    {
+      "name": "Volume4Elementary.OneStep.oneStep_time_energy",
+      "file": "Volume4Elementary/OneStepIsometry.lean",
+      "line": 165
+    },
+    {
+      "name": "Volume4Elementary.OneStep.oneStep_sq_intervalIntegrable",
+      "file": "Volume4Elementary/OneStepIsometry.lean",
+      "line": 173
+    },
+    {
+      "name": "Volume4Elementary.OneStep.oneStep_time_energy_integrable",
+      "file": "Volume4Elementary/OneStepIsometry.lean",
+      "line": 181
+    },
+    {
+      "name": "Volume4Elementary.OneStep.oneStep_ito_isometry",
+      "file": "Volume4Elementary/OneStepIsometry.lean",
+      "line": 188
+    },
+    {
+      "name": "Volume4Elementary.OneStep.brownianStep_memLp",
+      "file": "Volume4Elementary/OneStepIsometry.lean",
+      "line": 200
+    },
+    {
+      "name": "Volume4Elementary.OneStep.brownian_one_second_moment",
+      "file": "Volume4Elementary/OneStepIsometry.lean",
+      "line": 209
+    },
+    {
+      "name": "Volume4Elementary.OneStep.brownianStep_second_moment",
+      "file": "Volume4Elementary/OneStepIsometry.lean",
+      "line": 214
+    },
+    {
+      "name": "Volume4Elementary.OneStep.brownianStep_second_moment_at_two",
+      "file": "Volume4Elementary/OneStepIsometry.lean",
+      "line": 224
+    },
+    {
+      "name": "Volume4Elementary.OneStep.brownianStep_time_energy",
+      "file": "Volume4Elementary/OneStepIsometry.lean",
+      "line": 228
+    },
+    {
+      "name": "Volume4Elementary.OneStep.brownianStep_ito_isometry",
+      "file": "Volume4Elementary/OneStepIsometry.lean",
+      "line": 234
+    },
+    {
+      "name": "Volume4Stage0.BrownianCheck.constructed_brownian",
+      "file": "Volume4Stage0/BrownianCheck.lean",
+      "line": 19
+    },
+    {
+      "name": "Volume4Stage0.BrownianCheck.filtered_brownian",
+      "file": "Volume4Stage0/BrownianCheck.lean",
+      "line": 22
+    },
+    {
+      "name": "Volume4Stage0.BrownianCheck.brownian_martingale",
+      "file": "Volume4Stage0/BrownianCheck.lean",
+      "line": 26
+    },
+    {
+      "name": "Volume4Stage0.BrownianCheck.brownian_zero",
+      "file": "Volume4Stage0/BrownianCheck.lean",
+      "line": 30
+    },
+    {
+      "name": "Volume4Stage0.BrownianCheck.brownian_path_continuous",
+      "file": "Volume4Stage0/BrownianCheck.lean",
+      "line": 33
+    },
+    {
+      "name": "Volume4Stage0.BrownianCheck.brownian_increment_law",
+      "file": "Volume4Stage0/BrownianCheck.lean",
+      "line": 37
+    },
+    {
+      "name": "Volume4Stage0.BrownianCheck.brownian_increment_independent_of_past",
+      "file": "Volume4Stage0/BrownianCheck.lean",
+      "line": 41
+    },
+    {
+      "name": "Volume4Stage0.BrownianCheck.indistinguishable_on_closed_interval",
+      "file": "Volume4Stage0/BrownianCheck.lean",
+      "line": 48
+    },
+    {
+      "name": "Volume4Chapter24.negative_drift_integral",
+      "file": "Volume4Chapter24/A01.lean",
+      "line": 11
+    },
+    {
+      "name": "Volume4Chapter24.initial_from_equation",
+      "file": "Volume4Chapter24/A02.lean",
+      "line": 15
+    },
+    {
+      "name": "Volume4Chapter24.terminal_value",
+      "file": "Volume4Chapter24/A03.lean",
+      "line": 15
+    },
+    {
+      "name": "Volume4Chapter24.zero_diffusion_unique",
+      "file": "Volume4Chapter24/A04.lean",
+      "line": 15
+    },
+    {
+      "name": "Volume4Chapter24.changed_coefficients_solution",
+      "file": "Volume4Chapter24/A05.lean",
+      "line": 11
+    },
+    {
+      "name": "Volume4Chapter24.changed_coefficients_unique",
+      "file": "Volume4Chapter24/A05.lean",
+      "line": 17
+    },
+    {
+      "name": "Volume4Chapter24.cutoff_solution",
+      "file": "Volume4Chapter24/A08.lean",
+      "line": 15
+    },
+    {
+      "name": "Volume4Chapter24.constant_integral",
+      "file": "Volume4Chapter24/M02.lean",
+      "line": 15
+    },
+    {
+      "name": "Volume4Chapter24.explicit_solution",
+      "file": "Volume4Chapter24/M03.lean",
+      "line": 15
+    },
+    {
+      "name": "Volume4Chapter24.fixed_time_unique",
+      "file": "Volume4Chapter24/M04.lean",
+      "line": 15
+    },
+    {
+      "name": "Volume4Chapter24.simultaneous_unique",
+      "file": "Volume4Chapter24/M05.lean",
+      "line": 15
+    },
+    {
+      "name": "Volume4Chapter24.existence_and_uniqueness",
+      "file": "Volume4Chapter24/M06.lean",
+      "line": 15
+    },
+    {
+      "name": "Volume4Chapter24.concrete_solution",
+      "file": "Volume4Chapter24/M07.lean",
+      "line": 11
+    },
+    {
+      "name": "Volume4Chapter23.random_step_before_start",
+      "file": "Volume4Chapter23/M02.lean",
+      "line": 10
+    },
+    {
+      "name": "Volume4Chapter23.random_step_terminal",
+      "file": "Volume4Chapter23/M02.lean",
+      "line": 14
+    },
+    {
+      "name": "Volume4Chapter23.subdivision_integral",
+      "file": "Volume4Chapter23/M03.lean",
+      "line": 14
+    },
+    {
+      "name": "Volume4Chapter23.constant_integral_formula",
+      "file": "Volume4Chapter23/M04.lean",
+      "line": 14
+    },
+    {
+      "name": "Volume4Chapter23.weighted_increment_L2_and_moment",
+      "file": "Volume4Chapter23/M05.lean",
+      "line": 14
+    },
+    {
+      "name": "Volume4Chapter23.one_interval_isometry",
+      "file": "Volume4Chapter23/M06.lean",
+      "line": 14
+    },
+    {
+      "name": "Volume4Chapter23.cross_term_integrable_and_zero",
+      "file": "Volume4Chapter23/M07.lean",
+      "line": 14
+    },
+    {
+      "name": "Volume4Chapter23.finite_sum_L2_and_isometry",
+      "file": "Volume4Chapter23/M08.lean",
+      "line": 14
+    },
+    {
+      "name": "Volume4Chapter23.two_step_terminal_second_moment",
+      "file": "Volume4Chapter23/M09.lean",
+      "line": 10
+    },
+    {
+      "name": "Volume4Chapter23.step_endpoint_values",
+      "file": "Volume4Chapter23/A01.lean",
+      "line": 10
+    },
+    {
+      "name": "Volume4Chapter23.split_same_coefficient",
+      "file": "Volume4Chapter23/A02.lean",
+      "line": 14
+    },
+    {
+      "name": "Volume4Chapter23.half_step_second_moment",
+      "file": "Volume4Chapter23/A04.lean",
+      "line": 10
+    },
+    {
+      "name": "Volume4Chapter23.future_increment_not_measurable",
+      "file": "Volume4Chapter23/A05.lean",
+      "line": 10
+    },
+    {
+      "name": "Volume4Chapter23.two_step_moments_at_endpoints",
+      "file": "Volume4Chapter23/A07.lean",
+      "line": 10
+    },
+    {
+      "name": "Volume4Chapter23.negative_constant_brownian_integral",
+      "file": "Volume4Chapter23/A08.lean",
+      "line": 10
+    },
+    {
+      "name": "Volume4Chapter22.constructed_interface",
+      "file": "Volume4Chapter22/M02.lean",
+      "line": 10
+    },
+    {
+      "name": "Volume4Chapter22.increment_law_and_L2",
+      "file": "Volume4Chapter22/M03.lean",
+      "line": 14
+    },
+    {
+      "name": "Volume4Chapter22.increment_mean_and_second_moment",
+      "file": "Volume4Chapter22/M04.lean",
+      "line": 14
+    },
+    {
+      "name": "Volume4Chapter22.increment_condExp_zero",
+      "file": "Volume4Chapter22/M05.lean",
+      "line": 14
+    },
+    {
+      "name": "Volume4Chapter22.martingale_from_filtered_brownian",
+      "file": "Volume4Chapter22/M06.lean",
+      "line": 14
+    },
+    {
+      "name": "Volume4Chapter22.countable_same_null_set",
+      "file": "Volume4Chapter22/M07.lean",
+      "line": 10
+    },
+    {
+      "name": "Volume4Chapter22.continuous_modifications_on_horizon",
+      "file": "Volume4Chapter22/M08.lean",
+      "line": 10
+    },
+    {
+      "name": "Volume4Chapter22.coefficient_for_next_interval",
+      "file": "Volume4Chapter22/M09.lean",
+      "line": 10
+    },
+    {
+      "name": "Volume4Chapter22.increment_one_to_three",
+      "file": "Volume4Chapter22/A02.lean",
+      "line": 10
+    },
+    {
+      "name": "Volume4Chapter22.predict_time_three_at_one",
+      "file": "Volume4Chapter22/A03.lean",
+      "line": 10
+    },
+    {
+      "name": "Volume4Chapter22.diagonal_zero_at_fixed_time",
+      "file": "Volume4Chapter22/A05.lean",
+      "line": 14
+    },
+    {
+      "name": "Volume4Chapter22.diagonal_no_zero_path",
+      "file": "Volume4Chapter22/A05.lean",
+      "line": 24
+    },
+    {
+      "name": "Volume4Chapter22.diagonal_not_indistinguishable",
+      "file": "Volume4Chapter22/A05.lean",
+      "line": 30
+    },
+    {
+      "name": "Volume4Chapter22.equality_on_observation_sequence",
+      "file": "Volume4Chapter22/A06.lean",
+      "line": 10
+    },
+    {
+      "name": "Volume4Chapter22.continuous_version_of_brownian",
+      "file": "Volume4Chapter22/A07.lean",
+      "line": 10
+    },
+    {
+      "name": "Volume4Chapter22.affine_coefficient_at_one",
+      "file": "Volume4Chapter22/A08.lean",
+      "line": 10
+    },
+    {
+      "name": "Volume4Chapter21.integral_from_law",
+      "file": "Volume4Chapter21/M02.lean",
+      "line": 16
+    },
+    {
+      "name": "Volume4Chapter21.independent_coordinates",
+      "file": "Volume4Chapter21/M03.lean",
+      "line": 13
+    },
+    {
+      "name": "Volume4Chapter21.independent_integrable_product",
+      "file": "Volume4Chapter21/M04.lean",
+      "line": 16
+    },
+    {
+      "name": "Volume4Chapter21.centered_product_mean_zero",
+      "file": "Volume4Chapter21/M04.lean",
+      "line": 24
+    },
+    {
+      "name": "Volume4Chapter21.gaussian_moments",
+      "file": "Volume4Chapter21/M05.lean",
+      "line": 16
+    },
+    {
+      "name": "Volume4Chapter21.independent_L2_product",
+      "file": "Volume4Chapter21/M06.lean",
+      "line": 16
+    },
+    {
+      "name": "Volume4Chapter21.independent_gaussian_sum",
+      "file": "Volume4Chapter21/M07.lean",
+      "line": 16
+    },
+    {
+      "name": "Volume4Chapter21.conditional_mean_of_independence",
+      "file": "Volume4Chapter21/M08.lean",
+      "line": 16
+    },
+    {
+      "name": "Volume4Chapter21.information_measurable_independent",
+      "file": "Volume4Chapter21/M09.lean",
+      "line": 16
+    },
+    {
+      "name": "Volume4Chapter21.cdf_from_law",
+      "file": "Volume4Chapter21/A01.lean",
+      "line": 16
+    },
+    {
+      "name": "Volume4Chapter21.product_with_centered_variable",
+      "file": "Volume4Chapter21/A03.lean",
+      "line": 16
+    },
+    {
+      "name": "Volume4Chapter21.gaussian_three_four",
+      "file": "Volume4Chapter21/A04.lean",
+      "line": 16
+    },
+    {
+      "name": "Volume4Chapter21.zero_variance_gaussian",
+      "file": "Volume4Chapter21/A05.lean",
+      "line": 16
+    },
+    {
+      "name": "Volume4Chapter21.centered_gaussian_product",
+      "file": "Volume4Chapter21/A06.lean",
+      "line": 16
+    },
+    {
+      "name": "Volume4Chapter21.centered_gaussian_conditional_mean",
+      "file": "Volume4Chapter21/A08.lean",
+      "line": 16
+    },
+    {
+      "name": "Volume4Stage0.FourPoint.point_mass",
+      "file": "Volume4Stage0/FourPoint.lean",
+      "line": 33
+    },
+    {
+      "name": "Volume4Stage0.FourPoint.terminal_values",
+      "file": "Volume4Stage0/FourPoint.lean",
+      "line": 36
+    },
+    {
+      "name": "Volume4Stage0.FourPoint.integrable_terminal",
+      "file": "Volume4Stage0/FourPoint.lean",
+      "line": 41
+    },
+    {
+      "name": "Volume4Stage0.FourPoint.integrable_first",
+      "file": "Volume4Stage0/FourPoint.lean",
+      "line": 42
+    },
+    {
+      "name": "Volume4Stage0.FourPoint.expectation_terminal",
+      "file": "Volume4Stage0/FourPoint.lean",
+      "line": 44
+    },
+    {
+      "name": "Volume4Stage0.FourPoint.expectation_first",
+      "file": "Volume4Stage0/FourPoint.lean",
+      "line": 48
+    },
+    {
+      "name": "Volume4Stage0.FourPoint.firstInfo_le",
+      "file": "Volume4Stage0/FourPoint.lean",
+      "line": 55
+    },
+    {
+      "name": "Volume4Stage0.FourPoint.first_stronglyMeasurable",
+      "file": "Volume4Stage0/FourPoint.lean",
+      "line": 58
+    },
+    {
+      "name": "Volume4Stage0.FourPoint.condExp_terminal_first",
+      "file": "Volume4Stage0/FourPoint.lean",
+      "line": 63
+    },
+    {
+      "name": "Volume4Stage0.FourPoint.condExp_terminal_bot",
+      "file": "Volume4Stage0/FourPoint.lean",
+      "line": 79
+    },
+    {
+      "name": "Volume4Stage0.FourPoint.condExp_first_bot",
+      "file": "Volume4Stage0/FourPoint.lean",
+      "line": 82
+    },
+    {
+      "name": "Volume4Stage0.FourPoint.condExp_terminal_full",
+      "file": "Volume4Stage0/FourPoint.lean",
+      "line": 85
+    },
+    {
+      "name": "Volume4Stage0.FourPoint.tower_first_bot",
+      "file": "Volume4Stage0/FourPoint.lean",
+      "line": 90
+    },
+    {
+      "name": "Volume4Stage0.FourPoint.process_values",
+      "file": "Volume4Stage0/FourPoint.lean",
+      "line": 109
+    },
+    {
+      "name": "Volume4Stage0.FourPoint.process_stronglyAdapted",
+      "file": "Volume4Stage0/FourPoint.lean",
+      "line": 113
+    },
+    {
+      "name": "Volume4Stage0.FourPoint.process_integrable",
+      "file": "Volume4Stage0/FourPoint.lean",
+      "line": 123
+    },
+    {
+      "name": "Volume4Stage0.FourPoint.process_eq_condExp",
+      "file": "Volume4Stage0/FourPoint.lean",
+      "line": 126
+    },
+    {
+      "name": "Volume4Stage0.FourPoint.process_martingale",
+      "file": "Volume4Stage0/FourPoint.lean",
+      "line": 136
+    },
+    {
+      "name": "Volume4Stage0.FourPoint.one_step_condExp",
+      "file": "Volume4Stage0/FourPoint.lean",
+      "line": 147
+    },
+    {
+      "name": "Volume4Stage0.FourPoint.terminal_second_moment",
+      "file": "Volume4Stage0/FourPoint.lean",
+      "line": 150
+    },
+    {
+      "name": "Volume4Chapter20.table_filtration_agrees",
+      "file": "Volume4Chapter20/M02.lean",
+      "line": 19
+    },
+    {
+      "name": "Volume4Chapter20.table_process_values",
+      "file": "Volume4Chapter20/M03.lean",
+      "line": 10
+    },
+    {
+      "name": "Volume4Chapter20.adapted_and_integrable",
+      "file": "Volume4Chapter20/M04.lean",
+      "line": 10
+    },
+    {
+      "name": "Volume4Chapter20.table_is_terminal_forecast",
+      "file": "Volume4Chapter20/M05.lean",
+      "line": 10
+    },
+    {
+      "name": "Volume4Chapter20.table_martingale_from_tower",
+      "file": "Volume4Chapter20/M06.lean",
+      "line": 10
+    },
+    {
+      "name": "Volume4Chapter20.martingale_means_equal",
+      "file": "Volume4Chapter20/M07.lean",
+      "line": 13
+    },
+    {
+      "name": "Volume4Chapter20.martingale_increment_mean_zero",
+      "file": "Volume4Chapter20/M08.lean",
+      "line": 13
+    },
+    {
+      "name": "Volume4Chapter20.future_coordinate_not_known",
+      "file": "Volume4Chapter20/M09.lean",
+      "line": 10
+    },
+    {
+      "name": "Volume4Chapter20.full_information_changes_martingale",
+      "file": "Volume4Chapter20/M10.lean",
+      "line": 13
+    },
+    {
+      "name": "Volume4Chapter20.forecast_martingale_and_terminal",
+      "file": "Volume4Chapter20/M11.lean",
+      "line": 13
+    },
+    {
+      "name": "Volume4Chapter20.all_three_means_zero",
+      "file": "Volume4Chapter20/A03.lean",
+      "line": 10
+    },
+    {
+      "name": "Volume4Chapter20.last_increment_formula_and_forecast",
+      "file": "Volume4Chapter20/A04.lean",
+      "line": 10
+    },
+    {
+      "name": "Volume4Chapter20.affine_transform_is_martingale",
+      "file": "Volume4Chapter20/A05.lean",
+      "line": 10
+    },
+    {
+      "name": "Volume4Chapter20.terminal_forecast_with_second_coordinate",
+      "file": "Volume4Chapter20/A07.lean",
+      "line": 13
+    },
+    {
+      "name": "Volume4Chapter20.square_process_adapted_not_martingale",
+      "file": "Volume4Chapter20/A08.lean",
+      "line": 10
+    },
+    {
+      "name": "Volume4Chapter19.four_point_probability_and_values",
+      "file": "Volume4Chapter19/M02.lean",
+      "line": 10
+    },
+    {
+      "name": "Volume4Chapter19.finite_integrability_and_mean",
+      "file": "Volume4Chapter19/M03.lean",
+      "line": 10
+    },
+    {
+      "name": "Volume4Chapter19.first_coordinate_is_known",
+      "file": "Volume4Chapter19/M04.lean",
+      "line": 10
+    },
+    {
+      "name": "Volume4Chapter19.conditional_mean_from_characterization",
+      "file": "Volume4Chapter19/M05.lean",
+      "line": 10
+    },
+    {
+      "name": "Volume4Chapter19.no_information_and_full_information",
+      "file": "Volume4Chapter19/M06.lean",
+      "line": 10
+    },
+    {
+      "name": "Volume4Chapter19.conditional_mean_preserves_mean",
+      "file": "Volume4Chapter19/M07.lean",
+      "line": 10
+    },
+    {
+      "name": "Volume4Chapter19.nested_information_and_repeated_conditioning",
+      "file": "Volume4Chapter19/M08.lean",
+      "line": 10
+    },
+    {
+      "name": "Volume4Chapter19.conditional_mean_at_every_point",
+      "file": "Volume4Chapter19/M09.lean",
+      "line": 10
+    },
+    {
+      "name": "Volume4Chapter19.second_moment_from_four_values",
+      "file": "Volume4Chapter19/A01.lean",
+      "line": 10
+    },
+    {
+      "name": "Volume4Chapter19.integrable_does_not_mean_known",
+      "file": "Volume4Chapter19/A02.lean",
+      "line": 10
+    },
+    {
+      "name": "Volume4Chapter19.conditional_mean_with_second_coordinate",
+      "file": "Volume4Chapter19/A04.lean",
+      "line": 13
+    },
+    {
+      "name": "Volume4Chapter19.affine_conditional_mean",
+      "file": "Volume4Chapter19/A06.lean",
+      "line": 10
+    },
+    {
+      "name": "Volume4Chapter19.averaging_first_does_not_restore_information",
+      "file": "Volume4Chapter19/A07.lean",
+      "line": 10
+    },
+    {
+      "name": "Volume4Chapter19.conditional_second_moment",
+      "file": "Volume4Chapter19/A08.lean",
+      "line": 10
+    },
+    {
+      "name": "Volume4Chapter19.square_of_conditional_mean",
+      "file": "Volume4Chapter19/A08.lean",
+      "line": 28
+    }
+  ]
+}

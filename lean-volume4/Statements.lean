@@ -1,0 +1,15 @@
+import Volume4Elementary
+
+set_option pp.proofs false
+
+#print Volume4Elementary.ConstantSDE.IsSolution
+set_option pp.explicit true in
+#check Volume4Elementary.ConstantSDE.IsSolution.measurable_at
+set_option pp.explicit true in
+#check Volume4Elementary.ConstantSDE.IsSolution.continuous_paths
+#check Volume4Elementary.ConstantSDE.candidate_isSolution
+#check Volume4Elementary.ConstantSDE.IsSolution.ae_eq_at
+#check Volume4Elementary.ConstantSDE.IsSolution.indistinguishable
+#check Volume4Elementary.ConstantSDE.IsSolution.integral_eq_simultaneously
+#check Volume4Elementary.ConstantSDE.exists_solution_unique_on_interval
+#check Volume4Elementary.SDEExamples.brownian_exists_solution_unique
